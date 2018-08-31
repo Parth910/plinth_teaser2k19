@@ -1,196 +1,201 @@
+#ul{
+  top: 450px;
+}
 @media (min-width: 1170px ){
-.glitch {
-    color: white;
-    font-size: 60px;
-    position: relative;
-    width: 400px;
-    margin: 50px auto;
-    margin-left: 170%;
-  }
-  .arc_reactor {
-    position: relative;
-    top: 40%;
-    margin-top: -230px;
-    margin-left: 200px;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  .glitch {
+      color: white;
+      font-size: 60px;
+      position: relative;
+      width: 400px;
+      margin: 50px auto;
+      margin-left: 170%;
+    }
+    .arc_reactor {
+      position: relative;
+      top: 40%;
+      margin-top: -230px;
+      margin-left: 200px;
+      margin-right: auto;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+      
+    }
+    .plinthtext{
+      height: 600% !important; 
+      width: 400% !important;
+      margin-left: 120%;
+      margin-top: -5% !important;
+      float: center;
+    }
     
+    .imgwrapper {
+    padding-left: 20%;
+      
+    }
+  .container{
+      width: 100% !important;
   }
-  .plinthtext{
-    height: 600% !important; 
-    width: 400% !important;
-    margin-left: 120%;
-    margin-top: -5% !important;
-    float: center;
   }
   
-  .imgwrapper {
-  padding-left: 20%;
-    
+  @media (min-width: 1059px) and (max-width:1169px){
+  
+      .glitch {
+          color: white;
+          font-size: 60px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 150%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -210px;
+          margin-left: 80px;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 400% !important;
+          margin-left: 120%;
+          margin-top: -5% !important;
+          float: center;
+        }
+        
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
+      }
+  
   }
-.container{
-    width: 100% !important;
-}
-}
-
-@media (min-width: 1059px) and (max-width:1169px){
-
-    .glitch {
-        color: white;
-        font-size: 60px;
-        position: relative;
-        width: 400px;
-        margin: 50px auto;
-        margin-left: 150%;
-      }
-      .arc_reactor {
-        position: relative;
-        top: 40%;
-        margin-top: -210px;
-        margin-left: 80px;
-        margin-right: auto;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  
+   @media (min-width: 500px) and (max-width:799px){
+  
+      .glitch {
+          color: white;
+          font-size: 45px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 110%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -210px;
+          margin-left: 80px;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 200% !important;
+          margin-left: 80%;
+          margin-top: -5% !important;
+          float: center;
+        }
         
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
       }
-      .plinthtext{
-        height: 600% !important; 
-        width: 400% !important;
-        margin-left: 120%;
-        margin-top: -5% !important;
-        float: center;
-      }
-      
-      .imgwrapper {
-      padding-left: 20%;
-        
-      }
-    .container{
-        width: 100% !important;
+  
+  } 
+  
+  @media (min-width: 800px) and (max-width:1058px){
+    #ul{
+      top: 550px;
     }
-
-}
-
-@media (min-width: 500px) and (max-width:799px){
-
-    .glitch {
-        color: white;
-        font-size: 45px;
-        position: relative;
-        width: 400px;
-        margin: 50px auto;
-        margin-left: 110%;
-      }
-      .arc_reactor {
-        position: relative;
-        top: 40%;
-        margin-top: -210px;
-        margin-left: 80px;
-        margin-right: auto;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+      .glitch {
+          color: white;
+          font-size: 45px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: -19%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -210px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 330% !important;
+          margin-left: -200px;
+          margin-top: 45% !important;
+          float: center;
+        }
         
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
       }
-      .plinthtext{
-        height: 600% !important; 
-        width: 200% !important;
-        margin-left: 80%;
-        margin-top: -5% !important;
-        float: center;
-      }
-      
-      .imgwrapper {
-      padding-left: 20%;
+  
+  }
+   @media (min-width: 375px) and (max-width:425px){
+  
+      .glitch {
+          color: white;
+          font-size: 45px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 150%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -2010px;
+          margin-left: 80px;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 270% !important;
+          margin-left: 120%;
+          margin-top: -5% !important;
+          float: center;
+        }
         
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
       }
-    .container{
-        width: 100% !important;
-    }
-
-}
-
-@media (min-width: 800px) and (max-width:1058px){
-
-    .glitch {
-        color: white;
-        font-size: 45px;
-        position: relative;
-        width: 400px;
-        margin: 50px auto;
-        margin-left: 150%;
-      }
-      .arc_reactor {
-        position: relative;
-        top: 40%;
-        margin-top: -210px;
-        margin-left: 80px;
-        margin-right: auto;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-        
-      }
-      .plinthtext{
-        height: 600% !important; 
-        width: 270% !important;
-        margin-left: 120%;
-        margin-top: -5% !important;
-        float: center;
-      }
-      
-      .imgwrapper {
-      padding-left: 20%;
-        
-      }
-    .container{
-        width: 100% !important;
-    }
-
-}
-@media (min-width: 375px) and (max-width:425px){
-
-    .glitch {
-        color: white;
-        font-size: 45px;
-        position: relative;
-        width: 400px;
-        margin: 50px auto;
-        margin-left: 150%;
-      }
-      .arc_reactor {
-        position: relative;
-        top: 40%;
-        margin-top: -2010px;
-        margin-left: 80px;
-        margin-right: auto;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-        
-      }
-      .plinthtext{
-        height: 600% !important; 
-        width: 270% !important;
-        margin-left: 120%;
-        margin-top: -5% !important;
-        float: center;
-      }
-      
-      .imgwrapper {
-      padding-left: 20%;
-        
-      }
-    .container{
-        width: 100% !important;
-    }
-
-}
+  
+  } 
