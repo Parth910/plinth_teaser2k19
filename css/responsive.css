@@ -1,7 +1,8 @@
-#ul{
-  top: 450px;
-}
+
 @media (min-width: 1170px ){
+  #ul{
+    top: 450px;
+  }
   .glitch {
       color: white;
       font-size: 60px;
@@ -80,47 +81,6 @@
       }
   
   }
-  
-   @media (min-width: 500px) and (max-width:799px){
-  
-      .glitch {
-          color: white;
-          font-size: 45px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 110%;
-        }
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -210px;
-          margin-left: 80px;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 600% !important; 
-          width: 200% !important;
-          margin-left: 80%;
-          margin-top: -5% !important;
-          float: center;
-        }
-        
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
-      .container{
-          width: 100% !important;
-      }
-  
-  } 
-  
   @media (min-width: 800px) and (max-width:1058px){
     #ul{
       top: 350px;
@@ -162,6 +122,48 @@
       }
   
   }
+  
+   @media (min-width: 500px) and (max-width:799px){
+       
+      .glitch {
+          color: white;
+          font-size: 45px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 110%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -210px;
+          margin-left: 80px;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 200% !important;
+          margin-left: 80%;
+          margin-top: -5% !important;
+          float: center;
+        }
+        
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
+      }
+  
+  } 
+  
+ 
    /* @media (min-width: 375px) and (max-width:425px){
   
       .glitch {
@@ -201,3 +203,8 @@
       }
   
   }  */
+  @media (max-width: 499px ){
+    #ul{
+      top: 500px !important;
+    }
+  }
