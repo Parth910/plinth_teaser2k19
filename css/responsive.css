@@ -40,7 +40,9 @@
   }
   
   @media (min-width: 1059px) and (max-width:1169px){
-  
+    #ul{
+      top: 350px;
+    }
       .glitch {
           color: white;
           font-size: 60px;
@@ -121,7 +123,7 @@
   
   @media (min-width: 800px) and (max-width:1058px){
     #ul{
-      top: 550px;
+      top: 450px;
     }
       .glitch {
           color: white;
@@ -160,7 +162,7 @@
       }
   
   }
-   @media (min-width: 375px) and (max-width:425px){
+   /* @media (min-width: 375px) and (max-width:425px){
   
       .glitch {
           color: white;
@@ -198,4 +200,4 @@
           width: 100% !important;
       }
   
-  } 
+  }  */
