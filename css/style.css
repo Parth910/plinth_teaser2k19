@@ -6,10 +6,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background: #000;
+  background:;
 }
 
-svg {
+/* svg {
   position: absolute;
   height: 100%;
 }
@@ -32,7 +32,7 @@ svg {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #7A6BB5;
-}
+} */
 
 img{
   text-align: center;
@@ -1215,10 +1215,10 @@ border-color: #D2527F;
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  /* animation: noise-anim 2s infinite linear alternate-reverse; */
 }
 
-@keyframes noise-anim-2 {
+/* @keyframes noise-anim-2 {
   0% {
     clip: rect(65px, 9999px, 88px, 0);
   }
@@ -1282,7 +1282,7 @@ border-color: #D2527F;
   100% {
     clip: rect(72px, 9999px, 100px, 0);
   }
-}
+} */
 .glitch:before {
   content: attr(data-text);
   position: absolute;
@@ -1293,7 +1293,7 @@ border-color: #D2527F;
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 3s infinite linear alternate-reverse;
+  /* animation: noise-anim-2 3s infinite linear alternate-reverse; */
 }
 @media (min-width: 992px) and (max-width:1174px){
   
