@@ -38,6 +38,7 @@
   .container{
       width: 100% !important;
   }
+  
   }
   
   @media (min-width: 1059px) and (max-width:1169px){
@@ -124,7 +125,9 @@
   }
   
    @media (min-width: 500px) and (max-width:799px){
-       
+    #ul{
+      display: none !important;
+    }
       .glitch {
           color: white;
           font-size: 45px;
@@ -162,6 +165,8 @@
       }
   
   } 
+   
+ 
   
  
    /* @media (min-width: 375px) and (max-width:425px){

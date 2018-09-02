@@ -29,12 +29,14 @@ function init() {
     //scene.add( mesh );
     cubeSineDriver = 0;
  
-    textGeo = new THREE.PlaneGeometry(300,300);
+    textGeo = new THREE.PlaneGeometry(400,300);
     THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
-    textTexture = THREE.ImageUtils.loadTexture('');
+    textTexture = THREE.ImageUtils.loadTexture('plinth.001.png');
     textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 1, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
     text.position.z = 800;
+    text.position.x=80;
+    text.position.y=10;
     scene.add(text);
 
     light = new THREE.DirectionalLight(0xffffff,0.5);
