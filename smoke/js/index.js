@@ -10,7 +10,7 @@ function init() {
     stats.domElement.style.position = 'absolute';
     stats.domElement.style.left = '0px';
     stats.domElement.style.top = '0px';
-    document.body.appendChild(stats.domElement);
+    // document.body.appendChild(stats.domElement);
 
     clock = new THREE.Clock();
 
@@ -41,7 +41,7 @@ function init() {
     light.position.set(-1,0,1);
     scene.add(light);
   
-    smokeTexture = THREE.ImageUtils.loadTexture('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95637/Smoke-Element.png');
+    smokeTexture = THREE.ImageUtils.loadTexture('Smoke-Element.png');
     smokeMaterial = new THREE.MeshLambertMaterial({color: 0x00dddd, map: smokeTexture, transparent: true});
     smokeGeo = new THREE.PlaneGeometry(300,300);
     smokeParticles = [];
