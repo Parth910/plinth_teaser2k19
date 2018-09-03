@@ -1,5 +1,5 @@
 
-@media (min-width: 1030px ){
+@media (min-width: 1330px ){
   #ul{
     top: 450px;
   }
@@ -31,7 +31,7 @@
       height: 600% !important; 
       width: 400% !important;
       margin-left: 120%;
-      margin-top: -5% !important;
+      margin-top: -25% !important;
       float: center;
     }
     
@@ -45,7 +45,7 @@
   
   }
   
-  @media (min-width: 765px) and (max-width:1029px)
+  @media (min-width: 950px) and (max-width:1329px)
   {
     #ul{
       top: 300px !important;
@@ -67,7 +67,7 @@
         .arc_reactor {
           position: relative;
           top: 40%;
-          margin-top: -210px;
+          margin-top: -220px;
           margin-left: 35%;
           margin-right: auto;
           width: 250px;
@@ -77,10 +77,10 @@
           
         }
         .plinthtext{
-          height: 600% !important; 
-          width: 400% !important;
-          margin-left: 120%;
-          margin-top: -5% !important;
+          height: 500% !important; 
+          width: 330% !important;
+          margin-left: -90%;
+          margin-top: 18% !important;
           float: center;
         }
         
@@ -90,7 +90,56 @@
       }
   
   }
-  @media (min-width: 300px) and (max-width:764px){
+  @media (min-width: 770px) and (max-width:949px)
+  {
+    #ul{
+      top: 300px !important;
+    }
+    #name{
+      margin-left: -65%;
+      margin-top: 120%;
+     
+    
+    }
+      .glitch {
+          color: white;
+          font-size: 60px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 150%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -220px;
+          margin-left: 35%;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 500% !important; 
+          width: 330% !important;
+          margin-left: -90%;
+          margin-top: 18% !important;
+          float: center;
+        }
+        
+       
+      .container{
+          width: 100% !important;
+      }
+  
+  }
+  @media (min-width: 625px) and (max-width:769px){
+    #ul{
+      top: 250px !important;
+    }
+    
     #name{
       margin-top: 95% !important;
       margin-left: -25%;
@@ -107,8 +156,8 @@
         .arc_reactor {
           position: relative;
           top: 40%;
-          margin-top: -210px;
-          margin-left: 14% !important;
+          margin-top: -230px;
+          margin-left: 30% !important;
           margin-right: auto;
           width: 250px;
           height: 250px;
@@ -118,9 +167,56 @@
         }
         .plinthtext{
           height: 600% !important; 
-          width: 330% !important;
-          margin-left: -200px;
-          margin-top: 45% !important;
+          width: 260% !important;
+          margin-left: -150px;
+          margin-top: 30% !important;
+          float: center;
+        }
+        
+        .imgwrapper {
+        padding-left: 20%;
+          
+        }
+      .container{
+          width: 100% !important;
+      }
+  
+  }
+  @media (min-width: 300px) and (max-width:624px){
+    #ul{
+      top: 250px !important;
+    }
+    
+    #name{
+      margin-top: 95% !important;
+      margin-left: -25%;
+      font-size: 250%;
+    }
+      .glitch {
+          color: white;
+          font-size: 45px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: -19%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -230px;
+          margin-left: 15% !important;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 600% !important; 
+          width: 140% !important;
+          margin-left: -40px;
+          margin-top: 30% !important;
           float: center;
         }
         

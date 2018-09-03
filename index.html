@@ -99,8 +99,8 @@
           <li></li><li></li><li></li><li></li><li></li><li></li>
           <li></li><li></li><li></li><li></li><li></li><li></li>
         </ul>
-        <!-- <div class="img-responsive imgwrapper animated fadeIn ">  <div class="">  <img class=" plinthtext  " src="plinthtext.png"></div></div>  -->
-         <div id="name"> <p></p> </div>    </div> 
+       <div>  <div>  <img class=" plinthtext  " src="plinthtext.png"></div></div>  
+         <!-- <div id="name"> <p></p> </div>    </div>  -->
     </div>
   </div></div>
   <div class="icon" id="none">
@@ -135,6 +135,16 @@
 
 </div>
 <script>
+  if(screen.width<=769 && screen.width>=300){
+                 function removeDummy() {
+            var elem = document.getElementById('ul');
+            elem.parentNode.removeChild(elem);
+            return false;
+        }
+        removeDummy();
+      }
+</script>
+<!-- <script>
     var i = 0;
     var txt = 'COMING•SOON';
     var speed = 80;
@@ -148,7 +158,7 @@
     }
     typeWriter();
   
-    </script>
+    </script> -->
 
 <script src='three.min.js'></script>
 <script src='Stats.js'></script>
