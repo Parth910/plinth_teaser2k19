@@ -1,7 +1,11 @@
 
-@media (min-width: 1170px ){
+@media (min-width: 1030px ){
   #ul{
     top: 450px;
+  }
+  #name{
+    margin-top: 100%;
+    margin-left: 200%;
   }
   .glitch {
       color: white;
@@ -41,9 +45,16 @@
   
   }
   
-  @media (min-width: 1059px) and (max-width:1169px){
+  @media (min-width: 765px) and (max-width:1029px)
+  {
     #ul{
-      top: 350px;
+      top: 300px !important;
+    }
+    #name{
+      margin-left: -65%;
+      margin-top: 120%;
+     
+    
     }
       .glitch {
           color: white;
@@ -57,7 +68,7 @@
           position: relative;
           top: 40%;
           margin-top: -210px;
-          margin-left: 80px;
+          margin-left: 35%;
           margin-right: auto;
           width: 250px;
           height: 250px;
@@ -73,18 +84,17 @@
           float: center;
         }
         
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
+       
       .container{
           width: 100% !important;
       }
   
   }
-  @media (min-width: 800px) and (max-width:1058px){
-    #ul{
-      top: 350px;
+  @media (min-width: 300px) and (max-width:764px){
+    #name{
+      margin-top: 95% !important;
+      margin-left: -25%;
+      font-size: 250%;
     }
       .glitch {
           color: white;
@@ -98,7 +108,7 @@
           position: relative;
           top: 40%;
           margin-top: -210px;
-          margin-left: auto;
+          margin-left: 14% !important;
           margin-right: auto;
           width: 250px;
           height: 250px;
@@ -124,49 +134,6 @@
   
   }
   
-   @media (min-width: 500px) and (max-width:799px){
-    #ul{
-      display: none !important;
-    }
-      .glitch {
-          color: white;
-          font-size: 45px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 110%;
-        }
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -210px;
-          margin-left: 80px;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 600% !important; 
-          width: 200% !important;
-          margin-left: 80%;
-          margin-top: -5% !important;
-          float: center;
-        }
-        
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
-      .container{
-          width: 100% !important;
-      }
-  
-  } 
-   
- 
   
  
    /* @media (min-width: 375px) and (max-width:425px){
@@ -207,9 +174,9 @@
           width: 100% !important;
       }
   
-  }  */
+  } 
   @media (max-width: 499px ){
     #ul{
       top: 500px !important;
     }
-  }
+  } */

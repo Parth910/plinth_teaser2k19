@@ -28,15 +28,69 @@ function init() {
     mesh = new THREE.Mesh( geometry, material );
     //scene.add( mesh );
     cubeSineDriver = 0;
+    if (screen.width>=1030) 
+    {    
+        /* the viewport is at least 400 pixels wide */
+         console.log("salujachutiya");
+        
+        textGeo = new THREE.PlaneGeometry(400,300);
+        
+        }
+    if (screen.width<=1029 && screen.width>=765)
+     {     
+             textGeo = new THREE.PlaneGeometry(400,230);
+             console.log("adarshchutiya");
+             
+     }
+    if(screen.width<=764 && screen.width>=300)
+     {
+        function removeDummy() {
+            var elem = document.getElementById('ul');
+            elem.parentNode.removeChild(elem);
+            return false;
+        }
+        removeDummy();
+            textGeo = new THREE.PlaneGeometry(190,150);
+                 console.log("hello");
+     }
+     //else
+     //{
+       // textGeo = new THREE.PlaneGeometry(100,30);
+     //}
+    
  
-    textGeo = new THREE.PlaneGeometry(400,300);
+    
     THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
     textTexture = THREE.ImageUtils.loadTexture('plinth.001.png');
     textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 1, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
-    text.position.z = 800;
-    text.position.x=80;
-    text.position.y=10;
+    
+        if (screen.width>=1030) {
+        /* the viewport is at least 400 pixels wide */
+        text.position.z = 800;
+        text.position.x=80;
+        text.position.y=0;
+        } 
+        else if (screen.width<=1029 && screen.width>=765)  {
+        
+        text.position.z = 800;
+        text.position.x=0;
+        text.position.y=-50;
+        }
+        else if(screen.width<=764 && screen.width>=300)
+        {
+            
+        text.position.z = 800;
+        text.position.x=0;
+        text.position.y=-30;}
+        // else
+        // {
+        //     text.position.z = 800;
+        //     text.position.x=0;
+        //     text.position.y=0;
+
+        // }
+    
     scene.add(text);
 
     light = new THREE.DirectionalLight(0xffffff,0.5);
