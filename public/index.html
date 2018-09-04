@@ -10,6 +10,7 @@
   <meta property="og:description" content="Plinth 2019, LNMIIT presents Techno-Management Literary Fest. Get ready for an awesome breathtaking journey.">
   <meta name="author" content="team plinth">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="favicon icon" href="favicon.ico" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -23,6 +24,7 @@
 </head>
 
 <body>
+    
 <div class="container">                         
   <div  style="position: fixed; height: 100%; width: 100%;">
     <div class="arc_reactor">
@@ -50,13 +52,15 @@
           <li></li><li></li><li></li><li></li><li></li><li></li>
           <li></li><li></li><li></li><li></li><li></li><li></li>
         </ul>
-       <div>  <div>  <img class=" plinthtext  " src="plinthtext.png"></div></div>  
+       <div>  <div>  <img class=" plinthtext  " src="plinth2019text (1).png"></div>
+      </div>  
     </div>
-  </div></div>
+  </div>
+
   <div class="icon" id="none">
 
-    <div id="none"></div>
-   </div>
+      <div id="none"></div>
+  </div>
    <ul id="ul">
        <li id="li">
          <a id="link" href="https://twitter.com/plinthlnmiit?lang=en" target="_blank"  class="Twitter"><span id="so">Twitter</span><i id="i" class="fab fa-twitter"></i></a>
@@ -77,12 +81,44 @@
      </ul>
  
 
-<div class="nav-icon">
-    <span></span>
-    <span></span>
+      <div class="nav-icon">
+        <span></span>
+        <span></span>
+    
+      
 </div>
 </div>
+<div id="button">
+    <a href="archive.html" target="_blank">Archive</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    </div>
+<div class="social-icons " id="icons">
+
+<ul >
+ <li><a href="https://twitter.com/plinthlnmiit?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+ <li><a href="https://www.facebook.com/Plinth.LNMIIT/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+ <li><a href="https://www.instagram.com/plinth.lnmiit/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+ <li><a href="https://www.youtube.com/user/PlinthLNMIITJaipur" target="_blank"><i  class="fab fa-youtube"></i></a></li>
+</ul>
+
+</div>
+
+ 
 <script>
+  if(screen.width>769){
+                 function remove() {
+            var elem = document.getElementById('icons');
+            elem.parentNode.removeChild(elem);
+            return false;
+        }
+        remove();
+      }
+      if(screen.width<=769 && screen.width>=450){
+        
+        var cg=document.getElementById('icons');
+        console.log(cg);
+        cg.style.marginTop="70px !important";
+      }
   if(screen.width<=769 && screen.width>=300){
                  function removeDummy() {
             var elem = document.getElementById('ul');

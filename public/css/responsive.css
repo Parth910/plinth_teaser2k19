@@ -42,6 +42,12 @@
   .container{
       width: 100% !important;
   }
+  #button{
+    left: 0 !important;
+    bottom: 20px !important;
+    width: 100%;
+    font-size: 20px !important;
+  }
   
   }
   
@@ -80,13 +86,22 @@
           height: 500% !important; 
           width: 330% !important;
           margin-left: -90%;
-          margin-top: 18% !important;
+          margin-top: 25% !important;
           float: center;
         }
         
        
       .container{
           width: 100% !important;
+      }
+      .social-icons{
+        /* padding-top: 10px !important;
+        margin-bottom: -10% !important; */
+        
+      }
+      .social-icons li{
+        margin-left: 5%;
+        margin-right: 5%;
       }
   
   }
@@ -125,7 +140,7 @@
           height: 500% !important; 
           width: 330% !important;
           margin-left: -90%;
-          margin-top: 18% !important;
+          margin-top: 10% !important;
           float: center;
         }
         
@@ -169,7 +184,7 @@
           height: 600% !important; 
           width: 260% !important;
           margin-left: -150px;
-          margin-top: 30% !important;
+          margin-top: 50% !important;
           float: center;
         }
         
@@ -200,7 +215,9 @@
           margin: 50px auto;
           margin-left: -19%;
         }
+        
         .arc_reactor {
+          
           position: relative;
           top: 40%;
           margin-top: -230px;
@@ -215,7 +232,7 @@
         .plinthtext{
           height: 600% !important; 
           width: 140% !important;
-          margin-left: -40px;
+          margin-left: -px;
           margin-top: 30% !important;
           float: center;
         }
@@ -276,3 +293,10 @@
       top: 500px !important;
     }
   } */
+  @media screen and (max-width: 769px) {
+    .social-icons{
+      margin-top: 450px !important;
+     
+      
+    }
+}

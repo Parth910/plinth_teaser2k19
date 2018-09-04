@@ -4,6 +4,7 @@ var camera, scene, renderer,
 init();
 animate(); 
 
+
 function init() {
     stats = new Stats();
     stats.setMode(0);
@@ -29,50 +30,21 @@ function init() {
     //scene.add( mesh );
     cubeSineDriver = 0;
     if (screen.width>=1330) 
-    {    
-        /* the viewport is at least 400 pixels wide */
-         console.log("salujachutiya");
-        
         textGeo = new THREE.PlaneGeometry(400,300);
-        
-        }
     if (screen.width<=1329 && screen.width>=950)
-     {     
-             textGeo = new THREE.PlaneGeometry(350,230);
-             console.log("adarshchutiya");
-             
-     }
+
+        textGeo = new THREE.PlaneGeometry(350,230);
+
     if(screen.width<=949 && screen.width>=770)
-     {
-        // function removeDummy() {
-        //     var elem = document.getElementById('ul');
-        //     elem.parentNode.removeChild(elem);
-        //     return false;
-        // }
-        // removeDummy();
-            textGeo = new THREE.PlaneGeometry(190,150);
-                 console.log("hello");
-     }
-     else if(screen.width<=769 && screen.width>=625){
-        //          function removeDummy() {
-        //     var elem = document.getElementById('ul');
-        //     elem.parentNode.removeChild(elem);
-        //     return false;
-        // }
-        // removeDummy();
+        textGeo = new THREE.PlaneGeometry(190,150);
+        
+     else if(screen.width<=769 && screen.width>=625)
         textGeo = new THREE.PlaneGeometry(240,150);
 
-    }
-    else if(screen.width<=624 && screen.width>=300){
-        // function removeDummy() {
-        //     var elem = document.getElementById('ul');
-        //     elem.parentNode.removeChild(elem);
-        //     return false;
-        // }
-        // removeDummy();
-        textGeo = new THREE.PlaneGeometry(200,150);
+    
+    else if(screen.width<=624 && screen.width>=300)
+       textGeo = new THREE.PlaneGeometry(200,150);
 
-    }
     
  
     
@@ -82,7 +54,7 @@ function init() {
     text = new THREE.Mesh(textGeo,textMaterial);
     
         if (screen.width>=1330) {
-        /* the viewport is at least 400 pixels wide */
+        
         text.position.z = 800;
         text.position.x=80;
         text.position.y=-100;
@@ -93,17 +65,19 @@ function init() {
         text.position.x=-0;
         text.position.y=-115;
         }
-        else if(screen.width<=949 && screen.width>=770)
+        else if(screen.width<=949 && screen.width>=779)
         {
             
         text.position.z = 800;
         text.position.x=0;
-        text.position.y=-120;}
+        text.position.y=-120;
+        }
         else if(screen.width<=769 && screen.width>=625)
         {
              text.position.z = 800;
              text.position.x=0;
              text.position.y=-100;
+             
 
         }
         else if(screen.width<=624 && screen.width>=300){

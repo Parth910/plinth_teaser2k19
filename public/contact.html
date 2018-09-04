@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact Us | Plinth 2k18</title>
+ <link rel="favicon icon" href="favicon.ico" />
+ <link rel="stylesheet" href="css/archive.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+ <h1>Contact Us</h1>
+
+ <div class="details">
+  <i class="fa fa-envelope" aria-hidden="true"></i> Email : plinth.lnmiit@gmail.com
+ </div>
+ <div class="details">
+  <i class="fa fa-phone" aria-hidden="true"></i> Phone : 7339875167
+ </div>
+
+  <div class="map" id="map"></div>
+
+ <div class="social-icons" id="icons">
+  <ul>
+   <li><a href="https://twitter.com/plinthlnmiit?lang=en" target="_blank"><i class="icon-twitter"></i></a></li>
+   <li><a href="https://www.facebook.com/Plinth.LNMIIT/" target="_blank"><i class="icon-facebook"></i></a></li>
+   <li><a href="https://www.instagram.com/plinth.lnmiit/" target="_blank"><i class="icon-instagram"></i></a></li>
+   <li><a href="https://www.youtube.com/user/PlinthLNMIITJaipur" target="_blank"><i class="icon-youtube"></i></a></li>
+  </ul>
+ </div>
+
+
+ <script>
+  function initMap() {
+   var uluru = {
+    lat: 26.936338,
+    lng: 75.923539
+   };
+   var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: uluru
+   });
+   var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+   });
+  }
+ </script>
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEH9KxT3Q_ss0aKvV4hLeWxajCoUgFvUs&callback=initMap">
+ </script>
+
+
+</body>
+
+</html>
